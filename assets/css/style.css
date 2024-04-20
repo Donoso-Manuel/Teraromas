@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+}
+.encabezado{
+    background-image: url('../img/banner.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 20rem;
+}
+.encabezado h1{
+    text-align: left;
+    margin: 0rem 12rem 0rem 12rem;
+    padding: 4rem 4rem 0rem 4rem;
+    font-size: 4rem;
+}
+.encabezado p{
+    text-align: left;
+    margin: 0rem 12rem 0rem 12rem;
+    padding: 0rem 4rem 0rem 4rem;
+    font-size: 2rem;
+}
+table{
+    padding-left: 15rem;
+    text-align: center;
+    width: 1200px;
+}
+.productos{
+    margin: 3rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.productos:hover{
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+}
+.descripcion{
+    text-align: justify;
+    background-color: aqua;
+}
+.precios{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    line-height: 2rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+}
